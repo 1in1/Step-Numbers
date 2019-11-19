@@ -43,9 +43,7 @@ int main()
     }
   }
   cout<<end<<endl;
-
-  	auto stop = chrono::high_resolution_clock::now();
-  	auto duration = chrono::duration_cast<chrono::microseconds>(stop - start);
-  	cout << "Done. Took "<<duration.count()<< " microseconds total." << endl;
-
+  auto stop = chrono::high_resolution_clock::now();
+ 	auto duration = chrono::duration_cast<chrono::microseconds>(stop - start);
+ 	cout << "Done. Took "<<duration.count()<< " microseconds total." << endl;
 }
