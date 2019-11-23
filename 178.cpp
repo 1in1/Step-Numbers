@@ -31,7 +31,6 @@ big search(int current, int remaining, int mask)
 
 int main()
 {
-  //vector<big> found;
   int upto;
   cin>>upto;
 
