@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 #include <chrono>
 typedef unsigned long long big;
 using namespace std;
@@ -33,6 +32,8 @@ int main()
 {
   int upto;
   cin>>upto;
+  if(upto > 50)
+     return 0;
 
   auto start = chrono::high_resolution_clock::now();
   big end= 0;
