@@ -2,6 +2,8 @@
 
 PE 178
 
+Task description:
+
 Consider the number 45656.
 
 It can be seen that each pair of consecutive digits of 45656 has a difference of one.
